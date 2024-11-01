@@ -1,0 +1,165 @@
+#map {
+	height: 480px;
+	position: absolute !important;
+	width: 600px !important
+}
+
+.controls {
+	margin-top: 10px;
+	border: 1px solid transparent;
+	border-radius: 2px 0 0 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 32px;
+	outline: 0;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .3)
+}
+
+#pac-input {
+	background-color: #fff;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 12px;
+	padding: 0 11px 0 13px;
+	text-overflow: ellipsis;
+	width: 300px
+}
+
+#pac-input:focus {
+	border-color: #4d90fe
+}
+
+.pac-container {
+	font-family: Roboto
+}
+
+#type-selector {
+	color: #fff;
+	background-color: #4d90fe;
+	padding: 5px 11px 0 11px
+}
+
+#type-selector label {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300
+}
+
+.wing-input-class {
+	width: 300px;
+	padding: 6px 12px
+}
+
+.metabox-holder .form-field input.wing-input-class[type=text] {
+	width: 500px;
+	padding: 6px 12px
+}
+.metabox-holder .shipox_box_count_field > label, .metabox-holder .wing_package_field > label {
+	display: block;
+}
+.widefat .column-order_status mark.processing:after {
+	color: #2529d7;
+	content: "\e011"
+}
+
+.wing-processing.tips:after {
+	color: #73a724 !important
+}
+
+.widefat .column-order_status mark.on-hold:after {
+	color: #555;
+	content: "\e033"
+}
+
+.widefat .column-order_status mark.cancelled:after {
+	color: #d72525;
+	content: "\e013"
+}
+
+.widefat .column-order_status mark.completed:after {
+	color: #32d725;
+	content: "\e015"
+}
+
+.view.ship-with-wing:after, .widefat .column-order_status mark.ship-with-wing, .widefat .column-order_status mark.wing-processing {
+	color: #32d725 !important;
+	content: '' !important;
+	height: 30px;
+	width: 50px;
+	background-size: contain
+}
+
+.view.ship-with-wing::after, .widefat .column-order_status mark.ship-with-wing {
+	background-size: contain;
+	height: 24px;
+	width: 24px
+}
+
+.wp-admin .wing-select-field {
+	line-height: 32px;
+	padding-right: 24px;
+	max-width: 500px;
+	width: 100%;
+	border-radius: 5px;
+	height: 40px
+}
+
+.wing-error {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border-radius: .25rem;
+	margin-top: 1rem
+}
+
+a.edit_address.wing_create_order_link {
+	width: 100% !important;
+	height: auto !important;
+	float: none !important;
+	overflow: auto !important;
+	display: block;
+	margin-left: 0 !important;
+	color: #0073aa !important;
+	font-weight: 700
+}
+
+a.edit_address.wing_create_order_link:after {
+	font-family: initial !important;
+	content: none !important
+}
+.shipox-package-prices-container {
+	padding: 5px 15px 10px;
+}
+.shipox_woocommerce_package_prices {
+	width: 100%;
+	padding: 10px 0;
+}
+.shipox_woocommerce_package_prices .error {
+	margin: 0 !important;
+	padding: 10px;
+}
+.shipox_woocommerce_package_prices:not(:last-child) {
+	margin-bottom: 20px;
+}
+.shipox_woocommerce_order_items tr {
+	border-bottom: 1px solid #dfdfdf;
+}
+.shipox_woocommerce_package_prices td, .shipox_woocommerce_order_items td {
+	padding: 0px 15px;
+}
+#shipox-order-meta-box .inside {
+	margin: 0;
+	padding: 0;
+	display: block !important;
+}
+#shipox-order-meta-box .wc-order-data-row {
+	padding: 5px 0;
+	line-height: 2em;
+}
+.wc-order-item-option.shipox-margin {
+	line-height: 28px;
+}
